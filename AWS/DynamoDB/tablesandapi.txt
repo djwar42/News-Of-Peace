@@ -1,0 +1,70 @@
+sources
+news
+
+sortednews
+
+arn:aws:iam::402692462524:role/GetNewsCategoricallyAPI
+
+top_frontpage_news 
+
+business_all_news 
+business_frontpage_news 
+education_all_news 
+education_frontpage_news 
+entertainment_all_news 
+entertainment_frontpage_news 
+environment_all_news 
+environment_frontpage_news 
+general_all_news 
+general_frontpage_news 
+health_all_news 
+health_frontpage_news 
+law_and_order_all_news 
+law_and_order_frontpage_news 
+lifestyle_all_news 
+lifestyle_frontpage_news 
+politics_all_news 
+politics_frontpage_news 
+science_all_news 
+science_frontpage_news 
+sports_all_news 
+sports_frontpage_news 
+technology_all_news 
+technology_frontpage_news 
+
+https://c6ge9sxm6a.execute-api.us-east-1.amazonaws.com/prod/
+
+--- Integration Request
+application/json
+
+{
+    "TableName": "technology_frontpage_news"
+}
+
+  --- Integration Response
+#set($inputRoot = $input.path('$'))
+{
+"items": [
+  #foreach($elem in $inputRoot.Items)
+    {
+      "id": "$elem.id.S",
+      "source_id": "$elem.source_id.S",
+      "author": "$elem.author.S",
+      "title": "$elem.title.S",
+      "content": "$elem.content.S",
+      "url": "$elem.url.S",
+      "url_to_image": "$elem.url_to_image.S",
+      "published_at": "$elem.published_at.S",
+      "category": "$elem.category.S",
+      "sentiment": "$elem.sentiment.S",
+      "importance": "$elem.importance.S",
+      "combinedscore": "$elem.combinedscore.S",
+      "order": "$elem.order.N",
+      "source_name": "$elem.source_name.S",
+      "source_url": "$elem.source_url.S"
+    }#if($foreach.hasNext),#end
+  #end
+]
+}
+
+

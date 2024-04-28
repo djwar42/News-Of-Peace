@@ -1,0 +1,175 @@
+{
+    "sources": 
+    [
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"S": "abc-news"},
+                    "name": {"S": "ABC News"},
+                    "url": {"S": "https://abcnews.go.com"},
+                    "polled_at": {"S": "1970-01-05T00:00:00Z"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"S": "breitbart-news"},
+                    "name": {"S": "Breitbart News"},
+                    "url": {"S": "http://www.breitbart.com"},
+                    "polled_at": {"S": "1970-01-04T00:00:00Z"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"S": "business-insider"},
+                    "name": {"S": "Business Insider"},
+                    "url": {"S": "http://www.businessinsider.com"},
+                    "polled_at": {"S": "1970-01-04T00:00:00Z"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"S": "cbs-news"},
+                    "name": {"S": "CBS News"},
+                    "url": {"S": "http://www.cbsnews.com"},
+                    "polled_at": {"S": "1970-01-05T00:00:00Z"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"S": "fortune"},
+                    "name": {"S": "Fortune"},
+                    "url": {"S": "http://fortune.com"},
+                    "polled_at": {"S": "1970-01-05T00:00:00Z"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"S": "fox-news"},
+                    "name": {"S": "Fox News"},
+                    "url": {"S": "http://www.foxnews.com"},
+                    "polled_at": {"S": "1970-01-05T00:00:00Z"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"S": "national-review"},
+                    "name": {"S": "National Review"},
+                    "url": {"S": "https://www.nationalreview.com/"},
+                    "polled_at": {"S": "1970-01-04T00:00:00Z"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"S": "nbc-news"},
+                    "name": {"S": "NBC News"},
+                    "url": {"S": "http://www.nbcnews.com"},
+                    "polled_at": {"S": "1970-01-05T00:00:00Z"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"S": "new-scientist"},
+                    "name": {"S": "New Scientist"},
+                    "url": {"S": "https://www.newscientist.com/section/news"},
+                    "polled_at": {"S": "1970-01-04T00:00:00Z"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"S": "newsweek"},
+                    "name": {"S": "Newsweek"},
+                    "url": {"S": "https://www.newsweek.com"},
+                    "polled_at": {"S": "1970-01-05T00:00:00Z"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"S": "politico"},
+                    "name": {"S": "Politico"},
+                    "url": {"S": "https://www.politico.com"},
+                    "polled_at": {"S": "1970-01-05T00:00:00Z"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"S": "polygon"},
+                    "name": {"S": "Polygon"},
+                    "url": {"S": "http://www.polygon.com"},
+                    "polled_at": {"S": "1970-01-05T00:00:00Z"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"S": "the-huffington-post"},
+                    "name": {"S": "The Huffington Post"},
+                    "url": {"S": "http://www.huffingtonpost.com"},
+                    "polled_at": {"S": "1970-01-04T00:00:00Z"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"S": "the-wall-street-journal"},
+                    "name": {"S": "The Wall Street Journal"},
+                    "url": {"S": "http://www.wsj.com"},
+                    "polled_at": {"S": "1970-01-04T00:00:00Z"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"S": "the-washington-post"},
+                    "name": {"S": "The Washington Post"},
+                    "url": {"S": "https://www.washingtonpost.com"},
+                    "polled_at": {"S": "1970-01-04T00:00:00Z"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"S": "time"},
+                    "name": {"S": "Time"},
+                    "url": {"S": "http://time.com"},
+                    "polled_at": {"S": "1970-01-05T00:00:00Z"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"S": "usa-today"},
+                    "name": {"S": "USA Today"},
+                    "url": {"S": "http://www.usatoday.com/news"},
+                    "polled_at": {"S": "1970-01-04T00:00:00Z"}
+                }
+            }
+        }
+    ]
+}
