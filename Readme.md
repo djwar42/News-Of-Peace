@@ -2,6 +2,8 @@ NewsOfPeace.org
 
 A news website that uses ai sentiment analysis to sort the news based on peacefulness
 
+![newsofpeace.org](/newsofpeace-screenshot.png?raw=true)
+
 - DynamoDB
   'sources'
   'news'
