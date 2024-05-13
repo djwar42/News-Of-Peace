@@ -1,4 +1,6 @@
-# NewsOfPeace.org
+# News Of Peace
+
+[NewsOfPeace.org](https://newsofpeace.org)
 
 A news website that uses ai sentiment analysis to sort the news based on peacefulness
 
